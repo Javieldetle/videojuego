@@ -18,5 +18,20 @@ public class Jugador {
 	private void setX(int x) {
 		this.x = x;
 	}
-
+	 public void subir(int power) {
+	        int actual = Jugador.this.getY();
+	        Jugador.this.setY(actual + power);
+	    }
+	 public void bajar(int power) {
+	        int actual = Jugador.this.getY();
+	        Jugador.this.setY(actual + power);
+	    }
+	 public void derecha(int power) {
+	        int actual = Jugador.this.getY();
+	        Jugador.this.setY(actual + power);
+	    }
+	 public void izquierda(int power) {
+	        int actual = Jugador.this.getY();
+	        Jugador.this.setY(actual + power);
+	    }
 }

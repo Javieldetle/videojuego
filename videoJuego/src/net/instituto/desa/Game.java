@@ -9,7 +9,7 @@ public class Game {
 	private static final String DERECHA = "Derecha";
 	Jugador j;
 
-	public void movimiento(String m) {
+	public void control(String m) {
 		if (m.equalsIgnoreCase(DERECHA)) {
 			j.setX(j.getX() + AVANCE);
 		}
