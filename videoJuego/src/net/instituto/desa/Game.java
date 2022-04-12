@@ -11,16 +11,16 @@ public class Game {
 
 	public void control(String m) {
 		if (m.equalsIgnoreCase(DERECHA)) {
-			j.setX(j.getX() + AVANCE);
+			j.subir( AVANCE);
 		}
 		if (m.equalsIgnoreCase(IZQUIERDA)) {
-			j.setX(j.getX() - AVANCE);
+			j.bajar( AVANCE);
 		}
 		if (m.equalsIgnoreCase(ARRIBA)) {
-			j.setY(j.getY() - AVANCE);
+			j.derecha( AVANCE);
 		}
 		if (m.equalsIgnoreCase(ABAJO)) {
-			j.setY(j.getY() + AVANCE);
+			j.izquierda( AVANCE);
 		}
 	}
 }
